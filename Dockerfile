@@ -7,5 +7,5 @@ RUN 			apt-get update && \
 				apt-get -y autoremove && \
 				apt-get -y autoclean
 
-ENTRYPOINT      ['/usr/local/bin/aws']
-CMD				['help']
+ENTRYPOINT      ["aws"]
+CMD				["help"]
